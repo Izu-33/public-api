@@ -10,7 +10,7 @@ def get_info():
     data = {
         "email": "dizundu@yahoo.com",
         "current_datetime": datetime.utcnow().isoformat() + "Z",
-        "github_url": "github_url"
+        "github_url": "https://github.com/Izu-33/public-api"
     }
 
     return jsonify(data), 200
